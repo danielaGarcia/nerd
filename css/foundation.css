@@ -1170,7 +1170,7 @@ button, .button {
     padding-left: 1.75rem;
     font-size: 0.8125rem; }
   button.tiny, .button.tiny {
-    background: #000000;
+    background: #7eb03d;
     padding-top: 0.625rem;
     padding-right: 1.25rem;
     padding-bottom: 0.6875rem;
@@ -6371,11 +6371,10 @@ width: 100%;
 height: 100%;
 }
 
-.botton:hover
-{
-  background-color: #FFF;
+.box{
+  position: inherit;
+  left: 51%;
 }
 
-.row > img{
 
-}
+
