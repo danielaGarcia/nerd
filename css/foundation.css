@@ -1761,7 +1761,7 @@ meta.foundation-mq-topbar {
   left: 0;
   position: fixed;
   top: 0;
-  z-index: 99; }
+file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
   .fixed.expanded:not(.top-bar) {
     overflow-y: auto;
     height: auto;
@@ -1777,8 +1777,8 @@ meta.foundation-mq-topbar {
 
 .top-bar {
   overflow: hidden;
-  height: 45px;
-  line-height: 45px;
+  height: 100%;
+  line-height: 100%;
   position: relative;
   background: #FFFFFF;
   margin-bottom: 0; }
@@ -1838,8 +1838,7 @@ meta.foundation-mq-topbar {
       height: 45px;
       line-height: 45px; }
     .top-bar .toggle-topbar.menu-icon {
-      top: 50%;
-      margin-top: 8px; }
+      top: 6%; }
       .top-bar .toggle-topbar.menu-icon a {
         height: 34px;
         line-height: 33px;
@@ -1875,11 +1874,11 @@ meta.foundation-mq-topbar {
   transition: left 300ms ease-out; }
   .top-bar-section ul {
     padding: 0;
-    width: 100%;
+    width: 40%;
     height: auto;
     display: block;
     font-size: 16px;
-    margin: 0; }
+    margin: -69px 0 0 235px; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
     border-top: solid 1px #1a1a1a;
@@ -2083,7 +2082,8 @@ meta.foundation-mq-topbar {
 
   .top-bar-section {
     transition: none 0 0;
-    left: 0 !important; }
+    left: 0 !important; 
+    margin: 40px;}
     .top-bar-section ul {
       width: auto;
       height: auto !important;
@@ -6197,6 +6197,13 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 /*------------------------------------------------*/
+
+.title-area img.logo
+{
+  margin: 17px 0 0px 60px;
+  width: 285px;
+  height: 91px;
+}
 .lineblack
 {
   background: black;
@@ -6205,16 +6212,18 @@ th.hide-for-touch {
 }
 .lineshares
 {
-
   background: black;
- 
   height: auto;
   display: block;
   position: relative;
   width: 100%;
-
- 
 }
+.lineclient
+{
+  background: #7aa843;
+  width: 100%;
+}
+
 .linegreen
 {
   background: #7aa843;
@@ -6437,7 +6446,6 @@ height: 100%;
   margin: 7px 5px 5px 220px;
 }
 
-<<<<<<< HEAD
 .buton 
 {
   margin: 15px 22.4rem 1.25rem;
@@ -6453,7 +6461,6 @@ height: 100%;
   transition: background-color 300ms ease-out; }
  .buton:hover, .buton:focus {
     background-color: #000000; }
-=======
 .footer
 {
 	background: #98d24d;
@@ -6465,13 +6472,7 @@ height: 100%;
 	color: #8998ab;
 	font-size: 15px;
 }
- img
-{
-	width: 13em;
-	height: 7em;
-	display: inline-block;
-	vertical-align: middle;
-}
+
 .notes h4
 {
 	font-size: 17px;
@@ -6489,4 +6490,14 @@ h6
 	background: #000000;
 	color: #ffffff;
 }
->>>>>>> f2c148f36041ad9c5eeee3f218ac7a5fedb79f59
+/*.arrow
+{
+  background-image: url(../img/icon_arrow.png) !important;
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 50px;
+  margin-top: 3px;
+  margin-left: 28.5em;
+  margin-right: 1.5em;
+  background-size: contain;
+}
