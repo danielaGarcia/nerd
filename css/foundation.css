@@ -6203,6 +6203,18 @@ th.hide-for-touch {
   width: 100%;
   height: 40px;
 }
+.lineshares
+{
+
+  background: black;
+ 
+  height: auto;
+  display: block;
+  position: relative;
+  width: 100%;
+
+ 
+}
 .linegreen
 {
   background: #7aa843;
@@ -6425,6 +6437,7 @@ height: 100%;
   margin: 7px 5px 5px 220px;
 }
 
+<<<<<<< HEAD
 .buton 
 {
   margin: 15px 22.4rem 1.25rem;
@@ -6440,3 +6453,40 @@ height: 100%;
   transition: background-color 300ms ease-out; }
  .buton:hover, .buton:focus {
     background-color: #000000; }
+=======
+.footer
+{
+	background: #98d24d;
+    max-width: 100%;
+}
+ h5
+{
+	text-align: center;
+	color: #8998ab;
+	font-size: 15px;
+}
+ img
+{
+	width: 13em;
+	height: 7em;
+	display: inline-block;
+	vertical-align: middle;
+}
+.notes h4
+{
+	font-size: 17px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+h6
+{
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+.text-note
+{
+	background: #000000;
+	color: #ffffff;
+}
+>>>>>>> f2c148f36041ad9c5eeee3f218ac7a5fedb79f59
