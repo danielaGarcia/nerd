@@ -1429,7 +1429,7 @@ input[type="color"],
 textarea {
   -webkit-appearance: none;
   -webkit-border-radius: 0px;
-  background-color: white;
+  background-color: #E6E6E6;
   font-family: inherit;
   border: 1px solid #cccccc;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -3458,7 +3458,7 @@ a {
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
-    color: #0078a0; }
+    color: #FFF; }
   a img {
     border: none; }
 
@@ -6229,7 +6229,7 @@ th.hide-for-touch {
   height: 20px;
   margin-top: 3px;
   margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin-right: 1.5em;
   background-size: contain;
 }
 .inline-list a.facebook:hover
@@ -6245,7 +6245,7 @@ th.hide-for-touch {
   height: 20px;
   margin-top: 3px;
   margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin-right: 1.5em;
   background-size: contain;
 }
 .inline-list a.twitter:hover
@@ -6261,7 +6261,7 @@ th.hide-for-touch {
   height: 20px;
   margin-top: 3px;
   margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin-right: 1.5em;
   background-size: contain;
 }
 .inline-list a.pinterest:hover
@@ -6277,7 +6277,7 @@ th.hide-for-touch {
   height: 20px;
   margin-top: 3px;
   margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin-right: 1.5em;
   background-size: contain;
 }
 .inline-list a.google-plus:hover
@@ -6379,9 +6379,64 @@ height: 100%;
 .registro
 {
   background:#000000;
-  height: auto;
-  display: block;
-  position: relative;
+  height: 100%;
   width: 100%;
+  display: block;
+  position: absolute;
 }
 
+.inline-list a.telephone
+{
+  background-color: #000;
+  background-image: url(../img/contacto/telephone.png) !important;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  margin-top: 3px;
+  margin-left: 14.5em;
+  margin-right: 1.5em;
+  background-size: contain;
+}
+.inline-list a.mail
+{
+  background-color: #000;
+  background-image: url(../img/contacto/mail.png) !important;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  margin-top: 3px;
+  margin-left: 14.5em;
+  margin-right: 1.5em;
+  background-size: contain;
+}
+
+.inline-list p.contacto-mail
+{
+  font-weight: bolder;
+  color: white;
+  font-size: 16px;
+  margin: 7px 5px 5px 177px;
+}
+.inline-list p.contacto-tel
+{
+  font-weight: bolder;
+  color: white;
+  font-size: 16px;
+  margin: 7px 5px 5px 220px;
+}
+
+.buton 
+{
+  margin: 15px 22.4rem 1.25rem;
+  position: absolute;
+  padding-top: 1rem;
+  padding-right: 5rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 5rem;
+  font-size: 1rem;
+  background-color: #83ba36;
+  border-color: #83ba36;
+  color: white;
+  transition: background-color 300ms ease-out; }
+ .buton:hover, .buton:focus {
+    background-color: #000000; }
