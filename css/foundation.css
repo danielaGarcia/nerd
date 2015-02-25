@@ -1170,7 +1170,7 @@ button, .button {
     padding-left: 1.75rem;
     font-size: 0.8125rem; }
   button.tiny, .button.tiny {
-    background: #000000;
+    background: #7eb03d;
     padding-top: 0.625rem;
     padding-right: 1.25rem;
     padding-bottom: 0.6875rem;
@@ -6383,13 +6383,9 @@ width: 100%;
 height: 100%;
 }
 
-.botton:hover
-{
-  background-color: #FFF;
-}
-
-.row > img{
-
+.box{
+  position: inherit;
+  left: 51%;
 }
 
 .registro
@@ -6400,6 +6396,7 @@ height: 100%;
   position: relative;
   width: 100%;
 }
+<<<<<<< HEAD
 .footer
 {
 	background: #98d24d;
@@ -6435,3 +6432,6 @@ h6
 	background: #000000;
 	color: #ffffff;
 }
+=======
+
+>>>>>>> 3ffaf6be56439339d593e51736a6bf721b6a0417
