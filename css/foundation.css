@@ -3454,7 +3454,7 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #008cba;
+  color: #FFF;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {
@@ -6200,7 +6200,7 @@ th.hide-for-touch {
 
 .title-area img.logo
 {
-  margin: 17px 0 0px 60px;
+  margin: -14px 0 0px 60px;
   width: 285px;
   height: 91px;
 }
@@ -6490,14 +6490,57 @@ h6
 	background: #000000;
 	color: #ffffff;
 }
-/*.arrow
-{
-  background-image: url(../img/icon_arrow.png) !important;
-  background-repeat: no-repeat;
-  width: 55px;
-  height: 50px;
-  margin-top: 3px;
-  margin-left: 28.5em;
-  margin-right: 1.5em;
-  background-size: contain;
+/*-----------------------------------------*/
+.button-1 {
+    background-color: #000;
+    padding-top: 0.875rem;
+    padding-right: 2rem;
+    padding-bottom: 0.9375rem;
+    padding-left: 1.75rem;
+    font-size: 0.8125rem;
+    float: left; 
+    margin: 0 17px 0 160px;
 }
+.button-1:hover{
+    background-color: #83ba36;
+}
+.button-2 {
+    background-color: #000;
+    padding-top: 0.875rem;
+    padding-right: 4rem;
+    padding-bottom: 0.9375rem;
+    padding-left: 3rem;
+    font-size: 0.8125rem;
+    float: left;
+    margin: 0 17px 0 0px;
+}   
+.button-2:hover{
+    background-color: #83ba36;
+}
+.button-3 {
+    background-color: #000;
+    padding-top: 0.875rem;
+    padding-right: 3rem;
+    padding-bottom: 0.9375rem;
+    padding-left: 2.75rem;
+    font-size: 0.8125rem;
+    float: left; 
+    margin: 0 17px 0 0px;
+}
+.button-3:hover{
+    background-color: #83ba36;
+}
+.button-4 {
+    background-color: #000;
+    padding-top: 0.875rem;
+    padding-right: 5rem;
+    padding-bottom: 0.9375rem;
+    padding-left: 4.75rem;
+    font-size: 0.8125rem;
+    float: left;
+} 
+.button-4:hover{
+    background-color: #83ba36;
+}
+
+/*--------------------------------------*/
