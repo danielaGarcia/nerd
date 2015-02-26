@@ -6550,3 +6550,15 @@ img.imagen{
   height: 100px;
 
 }
+.skills>li
+{
+  margin: 5px auto;
+  padding-bottom: 25px;
+  list-style: none;
+  width: 100%;
+  display: block;
+}
+.skills> li div
+{
+  background: #98d24d;
+}
