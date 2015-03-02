@@ -6478,11 +6478,13 @@ height: 100%;
 	font-size: 17px;
 	font-weight: bold;
 	margin-bottom: 15px;
+  color: #FFFFFF;
 }
-h6
+.notes h6
 {
 	font-size: 15px;
 	margin-bottom: 15px;
+  color: #FFFFFF;
 }
 
 .text-note
@@ -6490,6 +6492,7 @@ h6
 	background: #000000;
 	color: #ffffff;
 }
+
 /*-----------------------------------------*/
 .button-1 {
     background-color: #000;
@@ -6561,12 +6564,20 @@ img.imagen{
 .skills> li div
 {
   background: #98d24d;
+  color: #FFFFFF;
 }
 .text
 {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .picture
 {
   margin: auto 36px;
+}
+.icon
+{
+ position: absolute;
+top: 50%;
+left: 50%;
+margin-top: 15px;
 }
