@@ -284,7 +284,7 @@ select {
   .column,
   .columns {
     position: relative;
-    padding-left: 0.9375rem;
+    /*padding-left: 0.9375rem;*/
     padding-right: 0.9375rem;
     float: left; }
 
@@ -1879,7 +1879,7 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
     height: auto;
     display: block;
     font-size: 100%;
-    margin: -2em 0 0 0; }
+    /*margin: -2em 0 0 0;*/ }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
     border-top: solid 1px #1a1a1a;
@@ -2084,7 +2084,7 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
   .top-bar-section {
     transition: none 0 0;
     left: 0 !important; 
-    margin: 40px;}
+    margin: 40px 0px;}
     .top-bar-section ul {
       width: auto;
       height: auto !important;
@@ -2105,7 +2105,7 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
         background-color: #555555;
         background: #272727; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
-      padding: 0 15px;
+      padding: 0 10px;
       line-height: 45px;
         
          color: #8998ab;
@@ -6467,10 +6467,9 @@ height: 100%;
 {
   background-image: url(../img/nerd_white.png) !important;
   background-repeat: no-repeat;
-  width: 100px;
   height: 100px;
-  margin-top: 18px;
-  margin-left: 26.5em;
+  margin-top: 43em;
+  margin-left: 23.5em;
   margin-right: 1.5em;
   background-size: contain;
 }
@@ -6580,4 +6579,9 @@ margin-top: 15px;
 }
 .dir-imag{
   margin:0 45px;
+}
+
+.logo
+{
+  margin: 26px 0;
 }
