@@ -73,8 +73,8 @@ img {
   text-align: left;
   color:#8998ab; 
   display: block;
-font-size: 13px;
-width: 206px;
+  font-size: 13px;
+  width: 206px;
 }
 
 .right {
@@ -1838,7 +1838,8 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
       height: 45px;
       line-height: 45px; }
     .top-bar .toggle-topbar.menu-icon {
-      top: 6%; }
+      top: 6%;
+      margin: 0 25px; }
       .top-bar .toggle-topbar.menu-icon a {
         height: 34px;
         line-height: 33px;
@@ -1873,12 +1874,12 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
   width: auto;
   transition: left 300ms ease-out; }
   .top-bar-section ul {
-    padding: 0;
-    width: 40%;
+    padding: 35px;
+    width: 100%;
     height: auto;
     display: block;
-    font-size: 16px;
-    margin: -69px 0 0 235px; }
+    font-size: 100%;
+    margin: -2em 0 0 0; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
     border-top: solid 1px #1a1a1a;
@@ -6198,12 +6199,7 @@ th.hide-for-touch {
     display: table-cell !important; } }
 /*------------------------------------------------*/
 
-.title-area img.logo
-{
-  margin: -14px 0 0px 60px;
-  width: 285px;
-  height: 91px;
-}
+
 .lineblack
 {
   background: black;
@@ -6461,10 +6457,22 @@ height: 100%;
   transition: background-color 300ms ease-out; }
  .buton:hover, .buton:focus {
     background-color: #000000; }
+
 .footer
 {
-	background: #98d24d;
-    max-width: 100%;
+  background-color: #98d24d;
+  max-width: 100%;
+}
+.footer-img
+{
+  background-image: url(../img/nerd_white.png) !important;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  margin-top: 18px;
+  margin-left: 26.5em;
+  margin-right: 1.5em;
+  background-size: contain;
 }
  h5
 {
@@ -6478,11 +6486,13 @@ height: 100%;
 	font-size: 17px;
 	font-weight: bold;
 	margin-bottom: 15px;
+  color: #FFFFFF;
 }
-h6
+.notes h6
 {
 	font-size: 15px;
 	margin-bottom: 15px;
+  color: #FFFFFF;
 }
 
 .text-note
@@ -6490,16 +6500,15 @@ h6
 	background: #000000;
 	color: #ffffff;
 }
+
 /*-----------------------------------------*/
 .button-1 {
     background-color: #000;
     padding-top: 0.875rem;
-    padding-right: 2rem;
+    padding-right: 1rem;
     padding-bottom: 0.9375rem;
-    padding-left: 1.75rem;
-    font-size: 0.8125rem;
-    float: left; 
-    margin: 0 17px 0 160px;
+    padding-left: 0.75rem;
+    font-size: 0.8125rem; 
 }
 .button-1:hover{
     background-color: #83ba36;
@@ -6507,12 +6516,10 @@ h6
 .button-2 {
     background-color: #000;
     padding-top: 0.875rem;
-    padding-right: 4rem;
+    padding-right: 2rem;
     padding-bottom: 0.9375rem;
-    padding-left: 3rem;
+    padding-left: 2rem;
     font-size: 0.8125rem;
-    float: left;
-    margin: 0 17px 0 0px;
 }   
 .button-2:hover{
     background-color: #83ba36;
@@ -6520,12 +6527,10 @@ h6
 .button-3 {
     background-color: #000;
     padding-top: 0.875rem;
-    padding-right: 3rem;
+    padding-right: 2rem;
     padding-bottom: 0.9375rem;
-    padding-left: 2.75rem;
+    padding-left: 1.75rem;
     font-size: 0.8125rem;
-    float: left; 
-    margin: 0 17px 0 0px;
 }
 .button-3:hover{
     background-color: #83ba36;
@@ -6533,11 +6538,10 @@ h6
 .button-4 {
     background-color: #000;
     padding-top: 0.875rem;
-    padding-right: 5rem;
+    padding-right: 4rem;
     padding-bottom: 0.9375rem;
-    padding-left: 4.75rem;
+    padding-left: 3.75rem;
     font-size: 0.8125rem;
-    float: left;
 } 
 .button-4:hover{
     background-color: #83ba36;
@@ -6545,11 +6549,7 @@ h6
 
 /*--------------------------------------*/
 
-img.imagen{
-  width: 100px;
-  height: 100px;
 
-}
 .skills>li
 {
   margin: 5px auto;
@@ -6561,4 +6561,23 @@ img.imagen{
 .skills> li div
 {
   background: #98d24d;
+  color: #FFFFFF;
+}
+.text
+{
+  color: #FFFFFF;
+}
+.picture
+{
+  margin: auto 36px;
+}
+.icon
+{
+ position: absolute;
+top: 50%;
+left: 50%;
+margin-top: 15px;
+}
+.dir-imag{
+  margin:0 45px;
 }

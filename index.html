@@ -15,6 +15,13 @@
 	<script src="jscroll-master/jquery.jscroll.js"></script>
 	<script src="jscroll-master/jquery.jscroll.min.js"></script>
 </head>
+<script type="text/javascript">
+	$(document).ready(function (){
+		$('.scroll').jscroll({
+			nextSelector: 'a.jscroll-next:last',
+	});
+	});
+</script>
 
 <body>
 	<div class="scroll">
@@ -37,15 +44,8 @@
 	</div>
 
 
-<script type="text/javascript">
-	$(document).ready(function (){
-		$('.scroll').jscroll({
-			nextSelector: 'a.jscroll-next:last',
-	});
-	});
-	$(document).foundation();
+<script>
+    $(document).foundation();
 </script>
-    
-
 </body>
 </html>
