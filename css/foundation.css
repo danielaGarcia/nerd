@@ -34,6 +34,7 @@ html, body {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+
 html,
 body {
   font-size: 100%; }
@@ -69,13 +70,10 @@ img {
   max-width: none !important; }
 
 .left {
-  float: left !important;
-  text-align: left;
   color:#8998ab; 
   display: block;
   font-size: 13px;
-  width: 206px;
-}
+  width: 100%;}
 
 .right {
   float: right !important; 
@@ -112,7 +110,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem; }
+  max-width: 69.5rem; }
   .row:before, .row:after {
     content: " ";
     display: table; }
@@ -1097,7 +1095,7 @@ button, .button {
   font-family: 'muli';
   font-weight: normal;
   line-height: normal;
-  margin: 0 0 1.25rem;
+  margin: 0 6px 1.25rem;
   position: relative;
   text-decoration: none;
   text-align: center;
@@ -1109,12 +1107,12 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #83ba36;
-  border-color: #83ba36;
+  background-color: #000;
+  border-color: #000;
   color: white;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #000000; }
+    background-color: #83ba36; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
@@ -1874,11 +1872,12 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
   width: auto;
   transition: left 300ms ease-out; }
   .top-bar-section ul {
-    padding: 35px;
+    padding: 55px;
     width: 100%;
     height: auto;
     display: block;
     font-size: 100%;
+    margin-top: 35px;
     /*margin: -2em 0 0 0;*/ }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
@@ -2083,8 +2082,8 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
 
   .top-bar-section {
     transition: none 0 0;
-    left: 0 !important; 
-    margin: 40px 0px;}
+    left: 40px !important; 
+    margin: 55px 0 0;}
     .top-bar-section ul {
       width: auto;
       height: auto !important;
@@ -2353,7 +2352,7 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
 
 .button-group {
   list-style: none;
-  margin: 0;
+  margin: 0 0 0 28%;
   left: 0; }
   .button-group:before, .button-group:after {
     content: " ";
@@ -6224,7 +6223,7 @@ th.hide-for-touch {
 {
   background: #7aa843;
   width: 100%;
-  height: 150px;
+  height: 100%;
 }
 .linegreenteam
 {
@@ -6245,7 +6244,7 @@ th.hide-for-touch {
   width: 20px;
   height: 20px;
   margin-top: 3px;
-  margin-left: 0.5em;
+  margin-left: -0.5em;
   margin-right: 1.5em;
   background-size: contain;
 }
@@ -6261,7 +6260,7 @@ th.hide-for-touch {
   width: 20px;
   height: 20px;
   margin-top: 3px;
-  margin-left: 0.5em;
+  margin-left: -0.5em;
   margin-right: 1.5em;
   background-size: contain;
 }
@@ -6277,7 +6276,7 @@ th.hide-for-touch {
   width: 20px;
   height: 20px;
   margin-top: 3px;
-  margin-left: 0.5em;
+  margin-left: -0.5em;
   margin-right: 1.5em;
   background-size: contain;
 }
@@ -6293,7 +6292,7 @@ th.hide-for-touch {
   width: 20px;
   height: 20px;
   margin-top: 3px;
-  margin-left: 0.5em;
+  margin-left: -0.5em;
   margin-right: 1.5em;
   background-size: contain;
 }
@@ -6388,64 +6387,29 @@ width: 100%;
 height: 100%;
 }
 
-.box{
-  position: inherit;
-  left: 51%;
-}
-
 .registro
 {
   background:#000000;
-  height: 100%;
   width: 100%;
-  display: block;
-  position: absolute;
-}
+  height: 100%;}
 
-.inline-list a.telephone
+.center
 {
-  background-color: #000;
-  background-image: url(../img/contacto/telephone.png) !important;
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
-  margin-top: 3px;
-  margin-left: 14.5em;
-  margin-right: 1.5em;
-  background-size: contain;
-}
-.inline-list a.mail
+  left: 42%;
+  position:  relative;}
+ p.contacto-mail
+ {
+  color: #FFF;
+  font-weight: 700;
+  text-align: center;}
+ p.contacto-tel
 {
-  background-color: #000;
-  background-image: url(../img/contacto/mail.png) !important;
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
-  margin-top: 3px;
-  margin-left: 14.5em;
-  margin-right: 1.5em;
-  background-size: contain;
-}
-
-.inline-list p.contacto-mail
-{
-  font-weight: bolder;
-  color: white;
-  font-size: 16px;
-  margin: 7px 5px 5px 177px;
-}
-.inline-list p.contacto-tel
-{
-  font-weight: bolder;
-  color: white;
-  font-size: 16px;
-  margin: 7px 5px 5px 220px;
-}
+  color: #FFF;
+  font-weight: 700;
+  text-align: center;}
 
 .buton 
 {
-  margin: 15px 22.4rem 1.25rem;
-  position: absolute;
   padding-top: 1rem;
   padding-right: 5rem;
   padding-bottom: 1.0625rem;
@@ -6461,18 +6425,9 @@ height: 100%;
 .footer
 {
   background-color: #98d24d;
-  max-width: 100%;
-}
-.footer-img
-{
-  background-image: url(../img/nerd_white.png) !important;
-  background-repeat: no-repeat;
-  height: 100px;
-  margin-top: 43em;
-  margin-left: 23.5em;
-  margin-right: 1.5em;
-  background-size: contain;
-}
+  width: 100%;
+  height:100%;}
+
  h5
 {
 	text-align: center;
@@ -6501,7 +6456,7 @@ height: 100%;
 }
 
 /*-----------------------------------------*/
-.button-1 {
+/*.button-1 {
     background-color: #000;
     padding-top: 0.875rem;
     padding-right: 1rem;
@@ -6545,7 +6500,7 @@ height: 100%;
 .button-4:hover{
     background-color: #83ba36;
 }
-
+*/
 /*--------------------------------------*/
 
 
@@ -6583,5 +6538,6 @@ margin-top: 15px;
 
 .logo
 {
-  margin: 26px 0;
+  margin: -34px 0 0;
 }
+
