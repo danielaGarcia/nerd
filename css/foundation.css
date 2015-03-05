@@ -1837,13 +1837,14 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
       line-height: 45px; }
     .top-bar .toggle-topbar.menu-icon {
       top: 6%;
-      margin: 0 25px; }
+      margin: 25px 25px; }
       .top-bar .toggle-topbar.menu-icon a {
-        height: 34px;
+        height: 55px;
         line-height: 33px;
         padding: 0 40px 0 15px;
         color: black;
-        position: relative; }
+        position: relative; 
+        z-index: 1000;}
         .top-bar .toggle-topbar.menu-icon a span::after {
           content: "";
           position: absolute;
@@ -1878,6 +1879,7 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
     display: block;
     font-size: 100%;
     margin-top: 35px;
+    margin: 55px 0 0 0;
     /*margin: -2em 0 0 0;*/ }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
