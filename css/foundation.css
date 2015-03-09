@@ -6416,7 +6416,7 @@ height: 100%;
 
 .center
 {
-  left: 42%;
+  left: 41%;
   position:  relative;}
  p.contacto-mail
  {
@@ -6451,7 +6451,7 @@ height: 100%;
 
  h5
 {
-	text-align: center;
+	/*text-align: center;*/
 	color: #8998ab;
 	font-size: 15px;
 }
@@ -6562,3 +6562,11 @@ margin-top: 15px;
   margin: -34px 0 0;
 }
 
+.altura-textarea{
+  height: 100px;
+}
+
+.centrar-texto
+{
+  text-align: center;
+}
