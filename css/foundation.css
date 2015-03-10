@@ -6481,53 +6481,6 @@ height: 100%;
 	color: #ffffff;
 }
 
-/*-----------------------------------------*/
-/*.button-1 {
-    background-color: #000;
-    padding-top: 0.875rem;
-    padding-right: 1rem;
-    padding-bottom: 0.9375rem;
-    padding-left: 0.75rem;
-    font-size: 0.8125rem; 
-}
-.button-1:hover{
-    background-color: #83ba36;
-}
-.button-2 {
-    background-color: #000;
-    padding-top: 0.875rem;
-    padding-right: 2rem;
-    padding-bottom: 0.9375rem;
-    padding-left: 2rem;
-    font-size: 0.8125rem;
-}   
-.button-2:hover{
-    background-color: #83ba36;
-}
-.button-3 {
-    background-color: #000;
-    padding-top: 0.875rem;
-    padding-right: 2rem;
-    padding-bottom: 0.9375rem;
-    padding-left: 1.75rem;
-    font-size: 0.8125rem;
-}
-.button-3:hover{
-    background-color: #83ba36;
-}
-.button-4 {
-    background-color: #000;
-    padding-top: 0.875rem;
-    padding-right: 4rem;
-    padding-bottom: 0.9375rem;
-    padding-left: 3.75rem;
-    font-size: 0.8125rem;
-} 
-.button-4:hover{
-    background-color: #83ba36;
-}
-*/
-/*--------------------------------------*/
 
 
 .skills>li
@@ -6543,9 +6496,18 @@ height: 100%;
   background: #98d24d;
   color: #FFFFFF;
 }
-.text
+
+.text-big
 {
-  color: #FFFFFF;
+   color: #FFFFFF;
+  margin: 0px auto;
+  font-size: 35px;
+}
+.text-small
+{
+   color: #FFFFFF;
+  font-size: 12px;
+  margin: 0px auto;
 }
 .picture
 {
@@ -6582,4 +6544,8 @@ margin-top: 15px;
 position: relative;
 display: block;
 
+}
+.number {
+  position: relative;
+margin-top: -12px;
 }
