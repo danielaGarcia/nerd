@@ -6249,17 +6249,23 @@ padding-top: 50px;
 {
   background: #7aa843;
   width: 100%;
-  height: 100%;
-}
+  /*height: 100%;*/
+  padding: 2%;}
+
+.linewhy
+{
+  background: #FFFFFF;
+  width: 100%;
+  padding: 8%;}
+
+
 .linegreenteam
 {
   background:#8bbc55;
- 
   height: auto;
   display: block;
   position: relative;
   width: 100%;
-
 }
 
 .inline-list a.facebook
@@ -6434,7 +6440,7 @@ height: 100%;
   font-weight: 700;
   text-align: center;}
 
-.buton 
+.boton 
 {
   padding-top: 1rem;
   padding-right: 5rem;
@@ -6445,8 +6451,23 @@ height: 100%;
   border-color: #83ba36;
   color: white;
   transition: background-color 300ms ease-out; }
- .buton:hover, .buton:focus {
+ .boton:hover, .buton:focus {
     background-color: #000000; }
+
+  .boton-green
+{
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  background-color: #83ba36;
+  border-color: #83ba36;
+  color: white;
+  transition: background-color 300ms ease-out; }
+ .boton-green:hover{
+    background-color: #000; }
+
 
 .footer
 {
@@ -6485,7 +6506,7 @@ height: 100%;
 
 .skills>li
 {
-  margin: 5px auto;
+  margin: 24px auto;
   padding-bottom: 25px;
   list-style: none;
   width: 100%;
@@ -6495,6 +6516,8 @@ height: 100%;
 {
   background: #98d24d;
   color: #FFFFFF;
+  position: relative;
+  height: 41px;
 }
 
 .text-big
@@ -6535,7 +6558,12 @@ margin-top: 15px;
 
 .centrar-texto
 {
+  text-align: center;}
+
+.texto-footer{
+  font-size: x-small;
   text-align: center;
+
 }
 .shares
 {
