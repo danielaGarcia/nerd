@@ -6600,3 +6600,9 @@ margin-top: 15px;
   margin: 0 0 25px;
   color: #8998ab;}
 
+.fondo{
+  background-image: url(../img/comillas.png) !important;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  padding: 4%;}
