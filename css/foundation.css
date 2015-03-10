@@ -6231,9 +6231,13 @@ th.hide-for-touch {
 {
   background: black;
   height: auto;
-  display: block;
-  position: relative;
+  
+  
   width: 100%;
+  /*margin: 20px auto;*/
+  position: relative;
+display: block;
+padding-top: 50px;
 }
 .lineclient
 {
@@ -6570,4 +6574,12 @@ margin-top: 15px;
 .centrar-texto
 {
   text-align: center;
+}
+.shares
+{
+  background: #000000;
+  min-height: 200px;
+position: relative;
+display: block;
+
 }
