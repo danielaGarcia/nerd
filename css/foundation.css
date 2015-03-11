@@ -1864,7 +1864,7 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
       .top-bar .toggle-topbar.menu-icon a {
         height: 45px;
         line-height: 33px;
-        padding: 0px 35px 0px 15px;
+        padding: 0px 0px 0px 10px;
         color: #000;
         position: fixed;
         z-index: 10;
@@ -6570,7 +6570,7 @@ margin-top: 15px;
 
 .logo
 {
-  margin: -33px 0 0;
+  margin: -29px 0 0;
 }
 
 .altura-textarea{
@@ -6604,18 +6604,7 @@ display: block;
   position: relative;
 margin-top: -12px;
 }
-<<<<<<< HEAD
-/*.logo{
-display: block;
-margin: -52px 0;
-width: 18em;
-}*/
-=======
-.go
-{
->>>>>>> 9333e79e400b89e09267e35ffa994d7fc724d031
 
-}
 .servicios
 {
   min-width: 100%;
