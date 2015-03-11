@@ -6579,7 +6579,8 @@ margin-top: 15px;
 
 .centrar-texto
 {
-  text-align: center;}
+  text-align: center;
+  height: 52px;}
 
 .texto-footer{
   font-size: x-small;
