@@ -1859,12 +1859,13 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
       top: 6%;
       margin: 25px 25px; }
       .top-bar .toggle-topbar.menu-icon a {
-        height: 55px;
+        height: 85px;
         line-height: 33px;
         padding: 0 40px 0 15px;
         color: black;
         position: relative; 
-        z-index: 1000;}
+        z-index: 1000;
+        left: 20px;}
         .top-bar .toggle-topbar.menu-icon a span::after {
           content: "";
           position: absolute;
@@ -1899,7 +1900,7 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
     display: block;
     font-size: 100%;
     margin-top: 35px;
-    margin: 55px 0 0 0;
+    margin: 27px 0 0 0;
     /*margin: -2em 0 0 0;*/ }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
@@ -2105,7 +2106,7 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
   .top-bar-section {
     transition: none 0 0;
     left: 40px !important; 
-    margin: 55px 0 0;}
+    margin: 20px 0 0;}
     .top-bar-section ul {
       width: auto;
       height: auto !important;
@@ -6549,7 +6550,7 @@ margin-top: 15px;
 
 .logo
 {
-  margin: -34px 0 0;
+  margin: -33px 0 0;
 }
 
 .altura-textarea{
@@ -6583,4 +6584,9 @@ display: block;
   position: relative;
 margin-top: -12px;
 }
+/*.logo{
+display: block;
+margin: -52px 0;
+width: 18em;
+}*/
 
