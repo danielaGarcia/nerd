@@ -1769,6 +1769,7 @@ meta.foundation-mq-topbar {
 
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
+
   width: 100%;
   background: #333333; }
   .contain-to-grid .top-bar {
@@ -1791,7 +1792,8 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
       z-index: 99; }
     .fixed.expanded:not(.top-bar) .top-bar-section {
       z-index: 98;
-      margin-top: 45px; }
+      margin-top: 45px;
+      display: none; }
 
 .top-bar {
   overflow: hidden;
@@ -1859,12 +1861,14 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
       top: 6%;
       margin: 25px 25px; }
       .top-bar .toggle-topbar.menu-icon a {
-        height: 55px;
+        height: 45px;
         line-height: 33px;
-        padding: 0 40px 0 15px;
-        color: black;
-        position: relative; 
-        z-index: 1000;}
+        padding: 0px 35px 0px 15px;
+        color: #000;
+        position: fixed;
+        z-index: 10;
+        left: 0px;
+        top: 0px;}
         .top-bar .toggle-topbar.menu-icon a span::after {
           content: "";
           position: absolute;
@@ -1873,7 +1877,7 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
           top: 50%;
           margin-top: -8px;
           right: 15px;
-          box-shadow: 0 0px 0 1px black, 0 7px 0 1px black, 0 14px 0 1px black;
+          box-shadow: 0 0px 0 1px white, 0 7px 0 1px white, 0 14px 0 1px white;
           width: 16px; }
         .top-bar .toggle-topbar.menu-icon a span:hover:after {
           box-shadow: 0 0px 0 1px white, 0 7px 0 1px white, 0 14px 0 1px white; }
@@ -1886,6 +1890,14 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
       color: black; }
       .top-bar.expanded .toggle-topbar a::after {
         box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888; }
+
+/*@media screen and (max-width: 1025px) {
+    .top-bar-section{
+        display: none;
+
+    }
+}*/
+
 
 .top-bar-section {
   left: 0;
@@ -1978,10 +1990,12 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
         border-color: #368a55;
         color: white; }
         .top-bar-section ul li > button.success:hover, .top-bar-section ul li > button.success:focus {
-          background-color: #368a55; }
+          background-color: #368a55; 
+        }
         .top-bar-section ul li > button.success:hover, .top-bar-section ul li > button.success:focus {
           color: white; }
       .top-bar-section ul li > button.alert {
+        
         background-color: #f04124;
         border-color: #cf2a0e;
         color: white; }
@@ -6583,4 +6597,16 @@ display: block;
   position: relative;
 margin-top: -12px;
 }
+.go
+{
 
+}
+.servicios
+{
+  min-width: 100%;
+min-height: 100%;
+}
+/*.centrar{
+ position: relative;
+  left: 50%;
+}*/
