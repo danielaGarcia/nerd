@@ -1801,7 +1801,8 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
   line-height: 100%;
   position: relative;
   background: #FFFFFF;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  margin: 45px 0 -15px 0; }
   .top-bar ul {
     margin-bottom: 0;
     list-style: none; }
@@ -1861,15 +1862,14 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
       top: 6%;
       margin: 25px 25px; }
       .top-bar .toggle-topbar.menu-icon a {
-
-        height: 85px;
+        height: 45px;
         line-height: 33px;
-        padding: 0 40px 0 15px;
-        color: black;
-        position: relative; 
-        z-index: 1000;
-        left: 20px;}
-      
+        padding: 0px 35px 0px 15px;
+        color: #000;
+        position: fixed;
+        z-index: 10;
+        left: 0px;
+        top: 0px;}
         .top-bar .toggle-topbar.menu-icon a span::after {
           content: "";
           position: absolute;
@@ -1906,13 +1906,13 @@ file:///C:/xampp/htdocs/nerdy/menu.html#  z-index: 99; }
   width: auto;
   transition: left 300ms ease-out; }
   .top-bar-section ul {
-    padding: 55px;
+    /*padding: 55px;*/
     width: 100%;
     height: auto;
     display: block;
     font-size: 100%;
     margin-top: 35px;
-    margin: 27px 0 0 0;
+    margin: 74px 0 25px 0;
     /*margin: -2em 0 0 0;*/ }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
@@ -6235,12 +6235,18 @@ th.hide-for-touch {
     display: table-cell !important; } }
 /*------------------------------------------------*/
 
-
+/*@media screen {
+  body>.heade{
+position: fixed;}
+}*/
 .lineblack
 {
   background: black;
   width: 100%;
   height: 40px;
+  top:0;
+  position:fixed;
+  z-index: 10;
 }
 .lineshares
 {
