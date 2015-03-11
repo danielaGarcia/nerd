@@ -2,12 +2,29 @@
 <!--<div  style="display: block !important;">-->
 <script>
 	
-	$ ('.toggle-topbar.menu-icon').click(function ()
-	{
-		
-		$('.top-bar-section').toggle(1000);
+$().ready(function(){
 
-	});
+$(window).resize(function(){
+
+	var w = $(window).width();
+	if(w<1024)
+		{
+			$('.top-bar-section').hide();
+	    $('.top-bar .toggle-topbar').show();
+	}
+
+});
+	
+$(window).resize();
+});
+
+		$ ('.toggle-topbar.menu-icon').click(function ()
+		{
+			
+			$('.top-bar-section').toggle(1000);
+
+		});
+	
 </script>
 
 
@@ -29,7 +46,7 @@
 	       				  <section class="top-bar-section">
 
 					    <!-- Right Nav Section -->
-						    <ul>
+						    <ul class="menu">
 						      <li class="active"><a href="#">SERVICIOS</a></li>
 						      <li class="active"><a href="#">PROYECTOS</a></li>
 						      <li class="active"><a href="#">EQUIPO</a></li>
