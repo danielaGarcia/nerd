@@ -73,7 +73,8 @@ img {
   color:#8998ab; 
   display: block;
   font-size: 13px;
-  width: 100%;}
+  width: 100%;
+  list-style: none;}
 
 .right {
   float: right !important; 
