@@ -6390,7 +6390,7 @@ position: fixed;}
 {
   color: #8998ab;
   font-size: 15px;
-  margin: 40px auto;
+  margin: 20px auto;
 }
 .paragraphwhite
 {
@@ -6686,4 +6686,7 @@ min-height: 100%;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
   opacity: 1;
+}
+.titleleft {
+    height: 95px;
 }
