@@ -6450,13 +6450,15 @@ color: #FFFFFF;
 }
 .team-member .profile-pic 
 {
-border-radius: 50%;
-width: 130px;
-height: 130px;
-margin: auto;
-overflow: hidden;
-margin-bottom: 25px;
-border-style: 1px;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 25px;
+  border: solid;
+  color: white;
+
 }
 .team-member .profile-pic img 
 {
@@ -6651,4 +6653,13 @@ min-height: 100%;
 
 .elements{
   padding: 7px;
+}
+.registros img
+{
+  margin: 30px;
+}
+.registros p
+{
+  color: #FFFFFF;
+  
 }
